@@ -31,7 +31,7 @@ def water(lst, taps):
         sys.exit(1)
 
     if taps <= 0:
-        print("Please enter a tap value greater than 0")
+        print("Please enter a tap value greater than 0--")
         sys.exit(1)
 
     # one tap / more taps to people calculation
